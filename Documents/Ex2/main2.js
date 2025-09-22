@@ -45,6 +45,7 @@ function getOddArray(array) {
     }
   }
   return result;
+
 }
 
 console.log("Mảng gốc:", arr);
