@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Giang update
+=======
+
+>>>>>>> origin/main
 let arr = [3,5,7,9,5,6,8,1];
 
 // 1. Tính tổng các phần tử trong mảng
@@ -9,6 +13,11 @@ function getSum(array) {
   }
   return sum;
 }
+<<<<<<< HEAD
+=======
+
+// 2. Tìm số lớn nhất
+>>>>>>> origin/main
 function getMax(array) {
   return Math.max(...array);
 }
