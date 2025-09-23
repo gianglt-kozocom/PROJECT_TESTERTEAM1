@@ -1,4 +1,4 @@
-
+//Giang update
 let arr = [3,5,7,9,5,6,8,1];
 
 // 1. Tính tổng các phần tử trong mảng
