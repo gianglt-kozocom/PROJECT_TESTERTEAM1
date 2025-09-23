@@ -9,8 +9,6 @@ function getSum(array) {
   }
   return sum;
 }
-
-// 2. Tìm số lớn nhất
 function getMax(array) {
   return Math.max(...array);
 }
