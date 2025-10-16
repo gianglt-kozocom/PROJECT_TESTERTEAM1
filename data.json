@@ -1,0 +1,60 @@
+{
+  "loginUsers": [
+    {
+      "username": "",
+      "password": "Test123@",
+      "expected": false,
+      "expectedMessage": "User name là trường bắt buộc"
+    },
+
+    {
+      "username": "Giang_Pam",
+      "password": "",
+      "expected": false,
+      "expectedMessage": "Password là trường bắt buộc"
+    },
+     {
+      "username": "",
+      "password": "",
+      "expected": false,
+      "expectedMessage": "Username và Password không được để trống"
+    },
+     {
+      "username": "Username max lenght 20 kí tự",
+      "password": "Test123",
+      "expected": false,
+      "expectedMessage": "User_name không vượt quá 20 kí tự"
+    },
+    {
+      "username": "Password max lenght",
+      "password": "Test1234@",
+      "expected": false,
+      "expectedMessage": "Password không vượt quá 8 kí tự"
+    },
+    {
+      "username": "Password min lenght",
+      "password": "Test1",
+      "expected": false,
+      "expectedMessage": "Password phải có ít nhất 6 kí tự"
+    },
+    {
+      "username": "Giang_notExisted",
+      "password": "SomePass",
+      "expected": false,
+      "expectedMessage": "Account không tồn tại"
+    },
+    {
+      "username": "Giang_Pam",
+      "password": "Test123",
+      "expected": false,
+      "expectedMessage": "Password không hợp lệ"
+    },
+    {
+      "username": "Giang_Pam",
+      "password": "Test123@",
+      "expected": true,
+      "expectedMessage": "Login thành công"
+    }
+
+  ]
+}
